@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Event Registration</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="form-container">
+        <h2>Community Registration Form</h2>
+        <form id="registrationForm" novalidate>
+
+            <label>Full Name</label>
+            <input type="text" id="name">
+            <small class="error"></small>
+
+            <label>Email</label>
+            <input type="text" id="email">
+            <small class="error"></small>
+
+            <label>Phone Number</label>
+            <input type="text" id="phone">
+            <small class="error"></small>
+
+            <label>Age</label>
+            <input type="number" id="age">
+            <small class="error"></small>
+
+            <label>Event Type</label>
+            <select id="event">
+                <option value="">--Select--</option>
+                <option value="Software Developer Community">Software Developer Community</option>
+                <option value="AI and ML Community">AI and ML Community</option>
+                <option value="Cybersecurity Community">Cybersecurity Community</option>
+                <option value="IOT Community">IOT Community</option>
+            </select>
+            <small class="error"></small>
+
+            <label>Comments</label>
+            <textarea id="comments" maxlength="300"></textarea>
+
+            <button type="submit">Submit</button>
+        </form>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>

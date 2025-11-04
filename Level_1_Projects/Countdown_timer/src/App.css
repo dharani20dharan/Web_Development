@@ -1,0 +1,51 @@
+body {
+  background: linear-gradient(135deg, #74b9ff, #a29bfe);
+  font-family: "Poppins", sans-serif;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.container {
+  text-align: center;
+  color: #fff;
+  background: rgba(255, 255, 255, 0.15);
+  padding: 2rem;
+  border-radius: 12px;
+  width: 300px;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.2);
+}
+
+input {
+  width: 60px;
+  padding: 5px;
+  margin: 0 5px;
+  text-align: center;
+  border: none;
+  border-radius: 6px;
+}
+
+button {
+  background-color: #0984e3;
+  color: white;
+  border: none;
+  border-radius: 6px;
+  padding: 10px 15px;
+  margin: 10px;
+  cursor: pointer;
+}
+
+button:disabled {
+  background-color: gray;
+  cursor: not-allowed;
+}
+
+button:hover:not(:disabled) {
+  background-color: #74b9ff;
+}
+
+.timer-display h2 {
+  font-size: 2.5rem;
+  margin: 1rem 0;
+}

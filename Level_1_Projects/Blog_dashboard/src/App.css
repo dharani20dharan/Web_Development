@@ -27,7 +27,7 @@ main {
 /* Card text truncation for short description */
 .card-desc {
   display: -webkit-box;
-  -webkit-line-clamp: 3; /* limit to 3 lines */
+   /* limit to 3 lines */
   -webkit-box-orient: vertical;
   overflow: hidden;
 }
